@@ -1,0 +1,21 @@
+{
+  "name": "discord-protection-bot",
+  "version": "1.0.0",
+  "description": "Ultra-fast Discord protection bot with parallel processing",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node src/index.js"
+  },
+  "keywords": ["discord", "bot", "protection", "security"],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@types/node": "^22.13.11",
+    "discord.js": "^14.16.3",
+    "ioredis": "^5.4.1",
+    "pg": "^8.13.1",
+    "dotenv": "^16.4.5"
+  }
+}
